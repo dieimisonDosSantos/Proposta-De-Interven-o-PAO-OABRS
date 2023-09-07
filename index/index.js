@@ -3,7 +3,8 @@ function js1() {
 
      var usuario = document.querySelector('#usuario').value;
      var senha = document.querySelector('#senha').value;
-    //conições do botão
+
+    //condições do botão
     if (usuario == '' || usuario != "Dieimison") {
         alert('Usuario inválido, tente novamente!');
     } else if (senha == '' || senha != "oab123") {
